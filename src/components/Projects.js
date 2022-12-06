@@ -15,19 +15,19 @@ const Projects = () => {
             </div>
 
             <div className="project-card">
-                <a href="phoebejomusic.vercel.app"><div className="project-image music"></div></a>
+                <a href="https://phoebejomusic.vercel.app"><div className="project-image music"></div></a>
                 <h2>PHOEBE JO MUSIC</h2>
                 <p>2022</p>
             </div>
 
             <div className="project-card">
-                <a href="eworld-portfolio.vercel.app"><div className="project-image ehome"></div></a>
+                <a href="https://eworld-portfolio.vercel.app"><div className="project-image ehome"></div></a>
                 <h2>EHOME BY EWORLD</h2>
                 <p>2022</p>
             </div>
 
             <div className="project-card">
-                <a href="montys.vercel.app"><div className="project-image montys"></div></a>
+                <a href="https://montys.vercel.app"><div className="project-image montys"></div></a>
                 <h2>MONTYS</h2>
                 <p>2022</p>
             </div>
