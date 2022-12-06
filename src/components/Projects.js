@@ -8,27 +8,21 @@ const Projects = () => {
             </div>
 
             <div className="project-card">
-                <a href="https://phoebe.yoobeestudent.net/wendy-react/#/"><div className="project-image wendy"></div></a>
+                <a href="https://phoebe.yoobeestudent.net/wendy-react/#/"><img className="project-image wendy"></img></a>
 
                 <h2>WENDY HENDERSON ART</h2>
                 <p>2022</p>
             </div>
 
             <div className="project-card">
-                <a href="https://phoebejomusic.vercel.app"><div className="project-image music"></div></a>
+                <a href="https://phoebejomusic.vercel.app"><img className="project-image music"></img></a>
                 <h2>PHOEBE JO MUSIC</h2>
                 <p>2022</p>
             </div>
 
             <div className="project-card">
-                <a href="https://eworld-portfolio.vercel.app"><div className="project-image ehome"></div></a>
+                <a href="https://eworld-portfolio.vercel.app"><img className="project-image ehome"></img></a>
                 <h2>EHOME BY EWORLD</h2>
-                <p>2022</p>
-            </div>
-
-            <div className="project-card">
-                <a href="https://montys.vercel.app"><div className="project-image montys"></div></a>
-                <h2>MONTYS</h2>
                 <p>2022</p>
             </div>
 
