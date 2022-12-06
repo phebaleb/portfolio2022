@@ -31,6 +31,12 @@ const Projects = () => {
                 <h2>MONTYS</h2>
                 <p>2022</p>
             </div>
+
+            <div className="project-card">
+                <a href="https://montys.vercel.app"><img className="project-image montys"></img></a>
+                <h2>MONTYS</h2>
+                <p>2022</p>
+            </div>
         </div>
     )
 }
