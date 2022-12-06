@@ -1,0 +1,40 @@
+// ------------------------- COLOUR SCHEME
+
+$hotpink: #FF257C;
+$palepink: #FFB2B3;
+$orange: #FF9900;
+$blue: #9ACFFF;
+$offwhite: #FFFEEA;
+
+// ------------------------- FONTS / WEIGHTS
+
+@mixin heading-text {
+    line-height: 54px;
+    font-size: 50px;
+}
+
+@mixin subheading-text {
+    line-height: 34px;
+    font-size: 34px;
+}
+
+@mixin body-text {
+    font-size: 22px;
+}
+
+// ========================= TABLET
+
+@mixin heading-text-tablet {
+    line-height: 110px;
+    font-size: 120px;
+    margin: -10px 0 20px 0;
+}
+
+@mixin subheading-text-tablet {
+    line-height: 74px;
+    font-size: 52px;
+}
+
+@mixin body-text-tablet {
+    font-size: 32px;
+}

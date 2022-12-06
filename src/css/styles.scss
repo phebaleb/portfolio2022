@@ -1,0 +1,79 @@
+@import './modules/variables.scss';
+@import './modules/aboutme.scss';
+@import './modules/projects.scss';
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+h1 {
+    @include heading-text;
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 800;
+    color: $hotpink;
+    text-shadow: 1px 2px black;
+    text-align: center;
+}
+
+h2 {
+    @include subheading-text;
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 600;
+    color: $orange;
+    text-shadow: 1px 2px black;
+}
+
+
+p {
+    @include body-text;
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 300;
+}
+
+.button {
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 400;
+}
+
+.cta {
+    margin: 30px 20% 0 20%;
+    padding: 15px;
+    background-color: $hotpink;
+    font-size: 22px;
+    color: $offwhite;
+    transition: all 0.3s ease;
+}
+
+.cta:hover {
+    background-color: $palepink;
+    color: $hotpink;
+    cursor: pointer;
+}
+
+// ========================= TABLET =============================================== TABLET
+
+@media only screen and (min-width: 768px) {
+    h1 {
+        @include heading-text-tablet;
+    }
+
+    h2 {
+        @include subheading-text-tablet;
+    }
+
+
+    p {
+        @include body-text-tablet;
+    }
+
+    .cta {
+        margin: 80px 20% 0 20%;
+        padding: 25px;
+        font-size: 52px;
+    }
+}
+
+@import './modules/home.scss';

@@ -1,0 +1,26 @@
+// ========================= PHONE S =============================================== PHONE S
+
+@media only screen and (min-width: 320px) {
+
+    .about-card {
+        background-color: $palepink;
+        width: 90%;
+        height: auto;
+        padding: 15px 30px 20px 30px;
+        margin: 0 0 20px 5%;
+        border-left: 5px solid $hotpink;
+        border-bottom: 5px solid $hotpink;
+    }
+}
+
+// ========================= LAPTOP S =============================================== LAPTOP S
+
+@media only screen and (min-width: 1024px) {
+    .about-card {
+        padding: 5px 160px 40px 80px;
+    }
+}
+
+// ========================= LAPTOP L =============================================== LAPTOP L
+
+@media only screen and (min-width: 1440px) {}
